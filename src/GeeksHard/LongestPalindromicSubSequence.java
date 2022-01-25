@@ -20,6 +20,7 @@ public class LongestPalindromicSubSequence {
 
                 else if (str.charAt(i) == str.charAt(j))
                     L[i][j] = L[i+1][j-1] + 2;
+
                 else
                     L[i][j] = max(L[i][j-1], L[i+1][j]);
 
