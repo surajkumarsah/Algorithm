@@ -1,5 +1,21 @@
 package GeeksHard;
 
+/* *****Sliding Window Problem:*****
+You have to find out the greatest element in the given k(steps/ window).
+
+Algorithm:
+1. For loop from 0 to n-k; where n=no. of element and k = sliding window
+2. for loop from 1 to <k.
+3. Compare the elements with the max element and if max element then put to the
+4. Print max after second loop.
+5. Finish.
+
+Thank you.
+
+*/
+
+
+
 public class SlidingWindowNormal {
 
     public static void slidingWindowNormal(int[] arr, int n, int k){

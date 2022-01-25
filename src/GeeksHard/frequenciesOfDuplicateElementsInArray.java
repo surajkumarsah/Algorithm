@@ -2,6 +2,19 @@ package GeeksHard;
 
 import java.util.HashMap;
 
+/*
+Frequency of Duplicate elements from the array:
+
+Algorithm:
+1. Create HashMap key and value of Integer type.
+2. For loop from 0 to arr size
+3. check mapscontains key if yes put array and size increment of respective value.
+4. If no. put array element and value as 1.
+5. Print the map and Finish.
+
+ */
+
+
 public class frequenciesOfDuplicateElementsInArray {
 
 
