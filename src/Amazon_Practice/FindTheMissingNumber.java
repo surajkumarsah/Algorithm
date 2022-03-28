@@ -11,6 +11,7 @@ import java.util.Random;
 //Sum of n no.: (n(n+1))/2;
 //missing no.= expected sum - sum of element;
 
+//Done
 
 public class FindTheMissingNumber {
 

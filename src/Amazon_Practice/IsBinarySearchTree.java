@@ -2,12 +2,32 @@ package Amazon_Practice;
 
 
 /*
-We have to determine that is binary tree a binary search tree.
- */
+We have to determine that binary tree is a binary search tree.
+
+BST: left of the tree of each branch should be less than the root and right of the tree of each branch should be greater than the root data.
+
+
+                    5
+                   / \
+                  3   6         Not a binary search tree.
+                 / \
+                10  4
+
+*Queue<NodeBST> queue: It consists list of queue.
+ and check left of the node and right of the node, if not null keep add into the queue.
+*queue.poll(): extract list of one element and put into the queue.
+
+
+
+*/
+
+
+//Done
 
 import java.util.LinkedList;
 import java.util.Queue;
 
+//Node to create an object that consists data of int type and left and right of Node type.
 class NodeBST{
     int data;
     NodeBST left, right;
@@ -21,30 +41,12 @@ class NodeBST{
 class BinarySearchTree{
     NodeBST root;
 
-//    public void addElementToTree(){
-//
-//        Queue<NodeBST> queue = new LinkedList<NodeBST>();
-//        queue.add(root);
-//
-//        while(!queue.isEmpty()){
-//
-//            NodeBST tempNode = queue.poll();
-//            System.out.print(tempNode.data+" ");
-//
-//            if (tempNode.left != null)
-//                queue.add(tempNode.left);
-//
-//            if (tempNode.right != null)
-//                queue.add(tempNode.right);
-//
-//        }
-//    }
-
     public int checkForBST(){
 
         Queue<NodeBST> queue = new LinkedList<NodeBST>();
         queue.add(root);
 
+        //Need to keep running until and unless it(queue) will empty
         while(!queue.isEmpty()){
             NodeBST nodeBST = queue.poll();
 
