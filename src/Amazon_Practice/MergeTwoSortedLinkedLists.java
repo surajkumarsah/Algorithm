@@ -6,7 +6,6 @@ Sort the elements in the two lists
 
  */
 
-
 //Done
 
 class Node{
@@ -71,7 +70,7 @@ public class MergeTwoSortedLinkedLists {
 
 
 class Gfg{
-
+////
     Node sortedMerged(Node headA, Node headB){
 
         Node dummyNode = new Node(0);

@@ -10,7 +10,7 @@ class IsLands{
 
         for(int i=0; i<Row; i++){
             for(int j=0; j<Col; j++){
-                if(mat[i][j] == 1 && !visited[i][j]){
+                if(mat[i][j] == 1 && !visited[i][j]){;
                     DFS(mat, i, j, visited);
                     count++;
                 }
@@ -45,7 +45,7 @@ public class NumberOfIsLand {
     public static void main(String[] args){
         int[][] m = new int[][]{
                 {1, 1, 0, 0, 0},
-                {0, 0, 1, 0, 1},
+                {0, 1, 0, 0, 1},
                 {1, 0, 0, 1, 1},
                 {0, 0, 0, 0, 0},
                 {1, 0, 1, 0, 1}};

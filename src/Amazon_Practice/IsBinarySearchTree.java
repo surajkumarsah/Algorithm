@@ -4,12 +4,13 @@ package Amazon_Practice;
 /*
 We have to determine that binary tree is a binary search tree.
 
+BT: each node of the tree must contain at most 2 children
 BST: left of the tree of each branch should be less than the root and right of the tree of each branch should be greater than the root data.
 
 
                     5
                    / \
-                  3   6         Not a binary search tree.
+  Binary Tree     3   6         Not a binary search tree.
                  / \
                 10  4
 

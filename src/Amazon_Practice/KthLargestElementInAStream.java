@@ -11,7 +11,7 @@ public class KthLargestElementInAStream {
 
     public static void main(String[] args){
         min = new PriorityQueue<Integer>();
-        k = 4;
+        k = 5;
         int[] arr = {1, 2, 3, 4, 5, 6};
         List<Integer> res = getAllKthNumber(arr);
 

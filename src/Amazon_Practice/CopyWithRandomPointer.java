@@ -3,6 +3,21 @@ package Amazon_Practice;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/*
+head.data = 1
+head.next.data = 2
+head.next.next.data = 3
+head.next.next.next.data = 4
+head.next.next.next.next.data = 5
+
+put random head in head.random
+
+
+
+
+ */
+
 class Nodea{
     int data;
     Nodea next, random;
@@ -15,18 +30,23 @@ class Nodea{
 class CopyWithRandomPointer {
 
     public static void main(String[] arg){
+        //making the tree
         Nodea head = new Nodea(1);
         head.next = new Nodea(2);
         head.next.next = new Nodea(3);
         head.next.next.next = new Nodea(4);
         head.next.next.next.next = new Nodea(5);
 
+        //put head.next... randomly in head.random....
         head.random = head.next.next.next.next;
         head.next.next.random = head.next;
+        head.next.random = head.next.next;
 
+        //Original linked list
         System.out.println("Original Linked List:");
         traverse(head);
 
+        //Cloning the nodes
         Nodea clone = cloneLinkedList(head);
         System.out.println("Cloned Linked List:");
         traverse(clone);

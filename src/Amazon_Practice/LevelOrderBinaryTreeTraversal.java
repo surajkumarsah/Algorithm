@@ -5,7 +5,6 @@ import java.util.Queue;
 //Time/ Space Complexity: O(n)
 
 /*
-We have to determine that binary tree is a binary search tree.
 
 LOT: LOT can print the elements in levels like below
 L0: 5,

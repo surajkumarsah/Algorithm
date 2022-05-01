@@ -30,7 +30,7 @@ public class DictionaryWordProblem {
         System.out.println(wordCheck(""));
         System.out.println(wordCheck("ilikelikeimangoiii"));
         System.out.println(wordCheck("samsungandmango"));
-        System.out.println(wordCheck("samsungandmangok"));
+        System.out.println(wordCheck("samsungandmangol"));
 
 //        if (wordCheck(str)){
 //            System.out.println("True");

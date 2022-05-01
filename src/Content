@@ -1,8 +1,22 @@
 /****Amazon Practice****/
-LevelOderBinaryTreeTraversal
-MergeTwoSortedLinkedList
-ReverseWordInSentence
+CopyWithRandomPointer
+DictionaryWordProblem
 FindTheMissingNumber
+IsBinarySearchTree
+KthLargestElementInAStream
+LargestSumContiguousSubArray    -   pending
+LevelOderBinaryTreeTraversal
+MergeIntervals  -   pending
+MergeTwoSortedLinkedList
+MinStack
+NumberOfIsLand
+PrisonCellAfterNDays
+RecorderDataInLogs
+ReverseWordInSentence
+RomanToInteger
+FindTheMissingNumber
+SpiralMatrix_Iterative_Approach
+SpiralMatrix_Recursive_Approach
 
 
 /*****Dynamic Programming****/

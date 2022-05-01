@@ -17,7 +17,7 @@ public class FindTheMissingNumber {
 
     public static void findTheMissingNumber(List<Integer> arr){
         int n = arr.size() + 1;
-        int sumOfElement = 0, exSum;
+        int sumOfElement = 0, exSum;//exsum: expected sum
 
         for(int x: arr){
             sumOfElement += x;
